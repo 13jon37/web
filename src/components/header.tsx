@@ -9,7 +9,7 @@ interface Props {
 const Header = ({ siteTitle }: Props) => (
   <header
     style={{
-      background: `#4287f5`,
+      background: `#383C40`,
       marginBottom: `1.45rem`,
     }}
   >

@@ -9,8 +9,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
-  background-color: #bcd2f5;
+  color: hsla(0, 0%, 100%, 0.8);
+  background-color: #383C40;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: normal;
   font-size: large;

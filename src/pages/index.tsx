@@ -9,17 +9,7 @@ import { graphql } from "gatsby"
 const IndexPage = (props: any) => (
   <Layout>
     <SEO title="Home" />
-    <BackgroundImage
-      className="masthead"
-      fluid={props.data.indexImage.childImageSharp.fluid}
-    >
-      <div className="black-overlay">
-        <div className="content-box">
-          <p>test</p>
-          </div>
-      </div>
-      
-    </BackgroundImage>
+    
     <div className="text-center">
       <h1>Welcome</h1>
       <p>Welcome to your new Gatsby site.</p>
