@@ -27,7 +27,7 @@ const IndexPage = (props: any) => (
     </div>
     <div className="video">
       <iframe width="100%" height="540" title="idk"
-        src="https://www.youtube.com/embed/qfNSeEOaSm8" frameBorder="0"
+        src="https://www.youtube.com/embed/XQBojI_nm_k" frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;">
         
         </iframe>

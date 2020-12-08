@@ -40,7 +40,10 @@ const Layout = ({ children }: Props) => {
         <footer style={{
           marginTop: `2rem`
         }}>
-          © {new Date().getFullYear()} SomethingsGames
+          <div className = "links">
+          <a href="https://github.com/13jon37" target="_blank" rel="noopener noreferrer">GitHub </a>
+          <a href="https://www.youtube.com/c/FaithEdits/" target="_blank" rel="noopener noreferrer">YouTube</a>
+          </div>
         </footer>
       </div>
     </>
