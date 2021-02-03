@@ -20,9 +20,21 @@ const IndexPage = (props:any) => (
       </div>
     </BackgroundImage>    
     </div>
-    
-  
-    
+
+    <div className="image-center">
+     <BackgroundImage
+      className="masthead"
+      fluid={props.data.indexImageTwo.childImageSharp.fluid}
+    >
+      <a href="https://github.com/13jon37/Mini">
+      <div className="black-overlay">
+        <div className="content-box">
+          <p>Mini</p>
+          </div>
+      </div>
+      </a>
+    </BackgroundImage>    
+    </div>
   </Layout>
 )
 
@@ -37,5 +49,13 @@ export const pageQuery = graphql`
         }
       }
     }
+    indexImageTwo: file(relativePath: { eq: "game-sdl.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1800) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
 `;
+
